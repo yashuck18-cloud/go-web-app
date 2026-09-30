@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: go-web-app
-          image: yashu2026/go-web-app:v2
+          image: yashu2026/go-web-app:b5d7bc6cb6af70cf46b5ec23ed36504daf3ea050
           ports:
             - containerPort: 8080
