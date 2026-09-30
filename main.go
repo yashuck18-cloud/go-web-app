@@ -6,8 +6,8 @@ import (
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	// Render the home html page from static folder
-	http.ServeFile(w, r, "static/home.html")
+    log.Println("CI/CD test: serving updated home page")
+    http.ServeFile(w, r, "static/home.html")
 }
 
 func coursePage(w http.ResponseWriter, r *http.Request) {
